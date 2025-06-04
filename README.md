@@ -1,12 +1,18 @@
 # MMQEval
 
-## Model Definition and Configuration Profile**
+## About
 
-This document outlines the MMQ Eval quality framework, its modular structure, scoring definitions, and default configuration for use in scoring multimodal content.
+This is a repository for MMQEval, the Multi-Modal Quality Evaluation model. It will contain the model definition documents, canonical schema and examples, and an academic paper describing the model and its background.
 
----
+[MMQEval](https://mmqeval.org) © 2025 by Agustin Da Fieno Delucchi, Katerina Gasova, and Pavel Soukenik is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-## Dimensions
+## MMQEval Preview (v0.3)
+
+### Model Definition
+
+This document outlines the MMQEval quality framework, its modular structure, scoring definitions, and default configuration for use in scoring multimodal content.
+
+### Dimensions
 
 |Dimension|Description|
 |---|---|
@@ -17,7 +23,7 @@ This document outlines the MMQ Eval quality framework, its modular structure, sc
 
 ---
 
-## Categories and Their Mappings
+### Categories and Their Mappings
 
 | Category Name                    | Dimension                     | Description                                                                                    |
 | -------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -40,7 +46,7 @@ This document outlines the MMQ Eval quality framework, its modular structure, sc
 
 ---
 
-## Scoring Definition
+### Scoring Definition
 
 Each category is scored with floating numbers on a **1–5 scale**, with the following guidance:
 
@@ -56,7 +62,7 @@ Scores may include decimal points for finer granularity (e.g., 3.7).
 
 ---
 
-## Modular Configuration Notes
+### Modular Configuration Notes
 
 - All categories are optional by design. Users may define subsets or add custom ones.
 - Categories are grouped under dimensions for aggregation.
